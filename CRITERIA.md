@@ -10,7 +10,7 @@ If you can't answer yes in one sentence tied to a specific pipeline stage or con
 
 ## Licensing scope — what CC0 covers and what it doesn't
 
-This repository's [LICENSE](../LICENSE) (CC0 1.0 Universal) covers only the original content created here: README text, category structure, curation descriptions, reference architectures, and everything in `docs/`. It does not, and cannot, apply to any linked external project — each retains whatever license its own maintainers chose. When adding an entry, note the linked project's license where it's known (as most existing entries already do, e.g. `· MIT`, `· BSD-3-Clause`) so a reader doesn't have to guess or assume CC0 extends to the thing being linked.
+This repository's [LICENSE](../LICENSE) (CC0 1.0 Universal) covers only original content created for this repository, including original README text, category structure, curation descriptions, reference architectures, and other original documentation. It does not automatically apply to third-party material that may be quoted, reproduced, embedded, or linked here; such material remains subject to its original license or other applicable terms. It does not, and cannot, apply to any linked external project — each retains whatever license its own maintainers chose. When adding an entry, note the linked project's license where it's known (as most existing entries already do, e.g. `· MIT`, `· BSD-3-Clause`) so a reader doesn't have to guess or assume CC0 extends to the thing being linked.
 
 If a contribution ever includes substantial original software code (e.g., a validation script, a generator for the docs site discussed in `ROADMAP.md` Phase 3) rather than markdown, that code should carry its own explicit software license (typically MIT, to match this repository's low-friction reuse philosophy) rather than being folded into the CC0 dedication — CC0 is a public-domain dedication suited to creative/informational works, not a software license in the sense MIT/Apache-2.0/GPL are. As of this writing, this repository contains no such code.
 
@@ -36,7 +36,7 @@ A resource qualifies if it meets **all** of:
 
 ## Resource type labels
 
-Every entry carries one type label, chosen from:
+Every entry carries one or more type labels, chosen from:
 
 `TOOL` · `FRAMEWORK` · `HARDWARE` · `DATASET` · `STANDARD` · `PAPER+CODE` · `PROTOCOL` · `SIMULATOR` · `BENCHMARK` · `REFERENCE LIST`
 
@@ -61,7 +61,7 @@ We do not publish numeric scores in the README. This rubric is for maintainer ju
 
 **Papers.** Only included if (a) they introduce a resource/method genuinely new to the field, and (b) they link a code repository. Prefer linking the code repo directly, with the paper as context.
 
-**Datasets.** Must be openly downloadable (no gated access beyond standard data-use agreements) and, ideally, BIDS- or NWB-formatted (see [`docs/data/README.md`](data/README.md) for which standard fits which modality). Prefer meta-lists over cataloguing individual datasets, unless a dataset is a de facto closed-loop benchmark (e.g., LINK for cross-session stability).
+**Datasets.** Must be publicly accessible for download without a commercial sales process or individually negotiated access. Standard registration, attribution requirements, or research data-use agreements are acceptable when they are clearly documented and do not make access effectively unavailable to ordinary researchers. Ideally, datasets are BIDS- or NWB-formatted (see [`docs/data/README.md`](data/README.md) for which standard fits which modality). Prefer meta-lists over cataloguing individual datasets, unless a dataset is a de facto closed-loop benchmark.
 
 **Commercial products/companies.** Allowed only if there's public technical documentation (an SDK, an API reference, a whitepaper with real specs) sufficient for an engineer to evaluate feasibility without contacting sales. No product pages with marketing copy only.
 
@@ -79,4 +79,4 @@ We do not publish numeric scores in the README. This rubric is for maintainer ju
 
 ## How new categories or docs pages get added
 
-A new top-level README category is added only when at least ~4–5 qualifying resources exist for it *and* it doesn't fit inside an existing category without straining that category's coherence. A new `docs/` page (in the style of `engineering-notes/`) is justified when a topic needs conceptual explanation that a resource list format can't convey — as happened with Control & Adaptation, where the honest state of the field is "mostly bespoke code and papers, not packaged tools," which a link list would misrepresent. Until either bar is met, borderline material goes in the closest existing location with a clarifying note, or in an issue tagged `future-category`.
+A new category in a section README is added only when at least ~4–5 qualifying resources exist for it *and* it doesn't fit inside an existing category without straining that category's coherence.. A new `docs/` page (in the style of `engineering-notes/`) is justified when a topic needs conceptual explanation that a resource list format can't convey — as happened with Control & Adaptation, where the honest state of the field is "mostly bespoke code and papers, not packaged tools," which a link list would misrepresent. Until either bar is met, borderline material goes in the closest existing location with a clarifying note, or in an issue tagged `future-category`.
