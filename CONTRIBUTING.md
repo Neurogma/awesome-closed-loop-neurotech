@@ -9,7 +9,7 @@ Thanks for considering a contribution. This repository stays useful by staying s
 3. **Pick the right section.** If nothing fits, open an issue first rather than forcing it in.
 4. **Format:**
    ```markdown
-   - [Name](URL) — one-sentence description explaining why it matters *for closed-loop work specifically*. `tag1` `tag2` `TYPE` · License/Language
+   -`[Name]` — `URL` — one-sentence description explaining why it matters *for closed-loop work specifically*. `tag1` `tag2` `TYPE` · License/Language
    ```
    Required: a resource-type label from `docs/CRITERIA.md` (`TOOL`, `FRAMEWORK`, `HARDWARE`, `DATASET`, `STANDARD`, `PAPER+CODE`, `PROTOCOL`, `SIMULATOR`, `BENCHMARK`, `REFERENCE LIST`).
    Optional tags: `real-time-capable`, `invasive`, `non-invasive`, `research`, `clinical`. Use only tags that add real information.
