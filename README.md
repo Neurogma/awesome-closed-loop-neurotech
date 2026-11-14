@@ -32,7 +32,7 @@ Good BCI and neuroscience resource lists already exist ([`NeuroTechX/awesome-bci
 [Full-Stack Platforms](#6-full-stack-platforms) comparison → [Datasets & Standards](#7-datasets-standards) for BIDS/NWB-compliant data handling → [Simulation & Hardware-in-the-Loop](docs/simulation/README.md) to validate before touching a subject.
 
 **I'm a robotics/control engineer new to neurotech.**
-[The Neurotech Stack](#the-neurotech-stack) diagram → [Control & Adaptation](docs/engineering-notes/control-and-adaptation.md) — this is where your existing skills map directly onto this field → [Interoperability](docs/interoperability/README.md) for how decoders talk to ROS.
+[The Neurotech Stack](#the-neurotech-stack) diagram → [Control & Adaptation](docs/engineering-notes/control-and-adaptation.md) - this is where your existing skills map directly onto this field → [Interoperability](docs/interoperability/README.md) for how decoders talk to ROS.
 
 **I'm new to the field entirely.**
 [The Neurotech Stack](#the-neurotech-stack) → [Recipe 1: EEG → cursor](docs/systems/eeg-motor-bci.md), the most reproducible end-to-end recipe here.
